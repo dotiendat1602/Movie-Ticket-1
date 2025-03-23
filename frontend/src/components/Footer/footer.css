@@ -1,0 +1,56 @@
+.wave{
+    position: absolute;
+    height: 100px;
+    top: -60px;
+    background: url(/ww.png);
+    background-size: 100vw 60px;
+    width: 100%;
+    left: 0;
+}
+
+.wave1{
+    z-index: 100;
+    opacity: 1;
+    bottom: 0;
+    animation: diep1 3s linear infinite;
+}
+.wave2{
+    z-index: 90;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: diep2 4s linear infinite;
+}
+.wave3{
+    z-index: 100;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: diep1 3s linear infinite;
+
+}
+.wave4{
+    z-index: 90;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: diep2 3s linear infinite;
+}
+
+
+@keyframes diep1 {
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x:0px;
+    }
+    
+}
+
+@keyframes diep2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x:100vw;
+    }
+    
+}

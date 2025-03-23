@@ -1,0 +1,92 @@
+#thanh-toan{
+    position: absolute;
+    left: 975px;
+    top: 380px;
+    margin: 15px;
+    outline: none;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(233, 101, 101);
+    padding-top: 0;
+}
+#thanh-toan:hover{
+background-color: transparent;
+border: 1px solid rgb(233, 101, 101);
+transition: all 0.2s;
+color: red;
+}
+
+.thanh-toan-info{
+    position: absolute;
+    left: 975px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 400px;
+    padding: 15px 20px 0px 20px;
+    font-size: small;
+    top: 55px;
+    background-color: white;
+    color: black;
+}
+
+.thanh-toan-canh-bao{
+    position: absolute;
+    left: 975px;
+    top: 250px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 400px;
+    padding: 15px 20px 0px 20px;
+    font-size: small;
+    background-color: white;
+    color: black;
+}
+
+.grid-items {
+    background-color: white;
+    height: 75px;
+    color: black;
+}
+
+.grid-item-first {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.grid-item-second {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-item-third {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.background-color-white{
+    background-color: white;
+}
+
+.first-row {
+    color: none;
+    background-color: #fafafa;
+}

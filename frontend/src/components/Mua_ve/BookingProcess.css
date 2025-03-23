@@ -1,0 +1,41 @@
+.progress-bars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 120px;
+    position: fixed;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px 10%; /* Điều chỉnh padding để khoảng cách hợp lý */
+    border: 1px solid #ccc;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 15%; /* Chiếm 15% chiều rộng cho mỗi bước */
+}
+
+.step.active {
+    font-weight: bold;
+    color: red;
+}
+
+.step-between {
+    font-size: 40px;
+    color: #000;
+}
+
+.step i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.step span {
+    font-size: 14px;
+}

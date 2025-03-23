@@ -1,0 +1,10 @@
+.filmImagediv:hover .icon{
+    opacity: 1;
+    }
+    .icon{
+        opacity: 0;
+        }
+    
+     .filmImagediv:hover   .filmImage{
+        transform: scale(1.2);
+    }

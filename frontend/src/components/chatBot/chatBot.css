@@ -1,0 +1,86 @@
+.chatbot-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    color: #000;
+}
+.chatbot-box{
+    height: 100%;
+    width: 100%;
+}
+.chatbot-header {
+    background-color: #109f18;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky; /* Giữ header luôn ở trên cùng */
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.chatbot-messages {
+    flex: 1; /* Phần này sẽ chiếm toàn bộ không gian còn lại */
+    padding: 10px;
+    overflow-y: auto; /* Cho phép cuộn khi có nhiều tin nhắn */
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e2e6;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+.chatbot-message.user {
+    background-color: #f1f1f1;
+    align-self: flex-end; /* Đẩy tin nhắn người dùng về phía bên phải */
+    max-width: 66%;
+    border-radius: 15px 15px 0 15px; /* Bo góc, chỉ để góc dưới bên trái nhọn */
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+.chatbot-message.model {
+    background-color: #e0f7fa;
+    align-self: flex-start; /* Đẩy tin nhắn chatbot về phía bên trái */
+    max-width: 66%;
+    border-radius: 15px 15px 15px 0; /* Bo góc, chỉ để góc dưới bên phải nhọn */
+    padding: 3%;
+}
+
+
+/* input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin: 10px;
+} */
+
+button {
+    background-color: #109f18;
+    color: white;
+    border: none;
+    width: 12%;
+    cursor: pointer;
+    padding-top: 3px;
+    display: 'flex';
+    justify-content: center;
+    align-items: center;
+    height: 35px;   
+    right: 0;
+    border-radius: 5PX;
+}
+.input__text{
+    width: 87%;
+    height: 35px;
+    outline: none;
+    border: 1px solid #c7c5c5;
+    padding-left: 5px;
+    font-size: 15px;
+    /* border-radius: 5px 5px 5px 5px; */
+}
